@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "system",
+    "outDir": "dist/",
+    "target": "ES5",
+    "moduleResolution":"node",
+    "sourceMap":true,
+    "removeComments":false,
+    "noImplicitAny": false
+  },
+  "compileOnSave": false,
+  "exclude": [
+    "node_modules",
+    "typings",
+    "typings/index.d.ts",
+    "gulpfile.js"
+  ],
+  "atom":{
+    "rewriteTsconfig": false
+  }
+}
